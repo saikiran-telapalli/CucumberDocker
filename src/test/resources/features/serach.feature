@@ -1,6 +1,7 @@
-Feature: Duck Duck Go Search
+@Regression
+Feature: Sai Test search
 
-  Scenario Outline: I want to search on duck-duck-go site
+  Scenario Outline: sai scenario1
     Given I am on the website duck-duck-go
     And   I enter the "<keyword>" to search
     And   I navigate to videos search
@@ -13,7 +14,7 @@ Feature: Duck Duck Go Search
     | docker     |
     | kubernetes |
     
-  Scenario Outline: I want to search on duck-duck-go site
+  Scenario Outline: sai scenario2
     Given I am on the website duck-duck-go
     And   I enter the "<keyword>" to search
     And   I navigate to videos search

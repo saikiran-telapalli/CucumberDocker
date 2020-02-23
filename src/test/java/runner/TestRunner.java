@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"stepDefs"},
-        tags = {"~@ignore"},
+        tags = {"@Regression"},
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",

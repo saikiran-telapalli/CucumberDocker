@@ -1,4 +1,5 @@
-Feature: Duck Duck Go Search
+@Regression
+Feature: Testing features running
 
   Scenario Outline: I want to search on duck-duck-go site
     Given I am on the website duck-duck-go
