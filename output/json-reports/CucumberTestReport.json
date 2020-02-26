@@ -1,0 +1,1666 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1057423335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Outline changed the name",
+        "description": "",
+        "id": "testing-features-running;outline-changed-the-name;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 67092131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 897965029,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1520722384,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"java\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245758251,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151794508,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 570190082,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Outline changed the name",
+        "description": "",
+        "id": "testing-features-running;outline-changed-the-name;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 71522008,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 677692849,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1333199124,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"webdriver\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263931169,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220981272,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 616835833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Outline changed the name",
+        "description": "",
+        "id": "testing-features-running;outline-changed-the-name;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 62047964,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 645099621,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1396554394,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"docker\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "docker",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276824100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120120700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 522612041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Outline changed the name",
+        "description": "",
+        "id": "testing-features-running;outline-changed-the-name;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 70913123,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 710584562,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1960999476,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"kubernetes\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kubernetes",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263292980,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137032347,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Testing features running",
+    "description": "",
+    "id": "testing-features-running",
+    "keyword": "Feature",
+    "uri": "features/cherup.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 626061483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "sai scenario1",
+        "description": "",
+        "id": "sai-test-search;sai-scenario1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 59285560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 767744122,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309560606,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"java\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240107452,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127765282,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 577864163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "sai scenario1",
+        "description": "",
+        "id": "sai-test-search;sai-scenario1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 70918393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 698846135,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1304597123,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"webdriver\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228562057,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120072727,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 573375770,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "sai scenario1",
+        "description": "",
+        "id": "sai-test-search;sai-scenario1;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 66441514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 685836609,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1471652543,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"docker\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "docker",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279566576,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262962199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 617174545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "sai scenario1",
+        "description": "",
+        "id": "sai-test-search;sai-scenario1;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 77376668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 677945325,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373062171,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"kubernetes\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kubernetes",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311261734,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234363464,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Sai Test search",
+    "description": "",
+    "id": "sai-test-search",
+    "keyword": "Feature",
+    "uri": "features/serach.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 619995519,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "sai scenario2",
+        "description": "",
+        "id": "sai-test-search;sai-scenario2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 65306486,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 728853662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2963080939,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"java\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221380009,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125761752,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 562783073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "sai scenario2",
+        "description": "",
+        "id": "sai-test-search;sai-scenario2;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 62455688,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 661685456,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1277052157,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"webdriver\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246439703,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119834558,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 556803918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "sai scenario2",
+        "description": "",
+        "id": "sai-test-search;sai-scenario2;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 59764620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 695336614,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1366084461,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"docker\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "docker",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236470590,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115939335,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 511222549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "sai scenario2",
+        "description": "",
+        "id": "sai-test-search;sai-scenario2;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 62040962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 708048253,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1729591560,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the \"kubernetes\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kubernetes",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247144461,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204692652,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 555864831,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "sai scenario4",
+        "description": "",
+        "id": "sai-test-search;sai-scenario4;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 59031245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 707382292,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1242001398,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the \"java\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275994124,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117667143,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 592397970,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "sai scenario4",
+        "description": "",
+        "id": "sai-test-search;sai-scenario4;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 63133351,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 753185918,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1696822827,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the \"webdriver\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 385462376,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286732092,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 718330526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "sai scenario4",
+        "description": "",
+        "id": "sai-test-search;sai-scenario4;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 66985131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 744935651,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1520692533,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the \"docker\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "docker",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244874422,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106039168,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 603285173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.setupDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "sai scenario4",
+        "description": "",
+        "id": "sai-test-search;sai-scenario4;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 77849202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchSteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 702243612,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the website duck-duck-go",
+            "match": {
+              "location": "SearchSteps.launchSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1443236937,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the \"kubernetes\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kubernetes",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchSteps.enterKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260415240,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to videos search",
+            "match": {
+              "location": "SearchSteps.navigateTovideos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169543706,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should get minimum 2 search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchSteps.verifySearchResults(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Sai Test search",
+    "description": "",
+    "id": "sai-test-search",
+    "keyword": "Feature",
+    "uri": "features/serach2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
